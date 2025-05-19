@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class BrowserCommandstest {
 	WebDriver driver;
-		
+@BeforeMethod		
 public void setup() {	
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
